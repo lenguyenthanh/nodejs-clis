@@ -8,7 +8,8 @@
     "lint": "eslint ./",
     "watch:test": "nodemon --exec \"npm test || true\"",
     "watch:lint": "nodemon --exec \"npm run lint || true\"",
-    "cli:echo":"node echo.js"
+    "cli:echo":"babel-node echo.js",
+    "cli:cat":"babel-node cat.js"
   },
   "repository": {
     "type": "git",
