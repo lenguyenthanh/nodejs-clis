@@ -7,7 +7,8 @@
     "dev": "run-p watch:test watch:lint",
     "lint": "eslint ./",
     "watch:test": "nodemon --exec \"npm test || true\"",
-    "watch:lint": "nodemon --exec \"npm run lint || true\""
+    "watch:lint": "nodemon --exec \"npm run lint || true\"",
+    "cli:echo":"node echo.js"
   },
   "repository": {
     "type": "git",
