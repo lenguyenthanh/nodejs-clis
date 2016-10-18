@@ -1,6 +1,6 @@
 {
   "name": "nodejs-clis",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "A collection of CLI utilities",
   "scripts": {
     "test": "mocha --compilers js:babel-register test/spec",
@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/CrabDude/nodejs-clis.git"
+    "url": "git://github.com/lenguyenthanh/nodejs-clis.git"
   },
-  "author": "Adam Crabtree",
+  "author": "Thanh Le",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/CrabDude/nodejs-clis/issues"
