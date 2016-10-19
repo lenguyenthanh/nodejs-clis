@@ -1,7 +1,7 @@
-#!/usr/bin/env babel-node
-
+#!/usr/bin/env babel-node 
 const helper = require('./helper')
 const fs = require('fs').promise
+
 const filePath = process.argv[2] || ''
 
 async function cat() {
@@ -10,5 +10,3 @@ async function cat() {
 }
 
 cat().catch(e => helper.print(e.message))
-
-

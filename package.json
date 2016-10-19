@@ -9,7 +9,8 @@
     "watch:test": "nodemon --exec \"npm test || true\"",
     "watch:lint": "nodemon --exec \"npm run lint || true\"",
     "cli:echo":"babel-node echo.js",
-    "cli:cat":"babel-node cat.js"
+    "cli:cat":"babel-node cat.js",
+    "cli:cat":"babel-node touch.js"
   },
   "repository": {
     "type": "git",
