@@ -8,9 +8,10 @@
     "lint": "eslint ./",
     "watch:test": "nodemon --exec \"npm test || true\"",
     "watch:lint": "nodemon --exec \"npm run lint || true\"",
-    "cli:echo":"babel-node echo.js",
-    "cli:cat":"babel-node cat.js",
-    "cli:cat":"babel-node touch.js"
+    "cli:echo": "babel-node echo.js",
+    "cli:cat": "babel-node cat.js",
+    "cli:touch": "babel-node touch.js",
+    "cli:ls": "babel-node ls.js"
   },
   "repository": {
     "type": "git",
@@ -26,10 +27,12 @@
     "babel-cli": "^6.16.0",
     "babel-preset-nodev6": "^1.0.0",
     "babel-register": "^6.14.0",
+    "lodash": "^4.16.4",
     "nodemon": "^1.10.2",
     "npm-run-all": "^3.1.0",
     "songbird": "^1.0.4",
-    "trycatch": "^1.5.21"
+    "trycatch": "^1.5.21",
+    "yargs": "^6.2.0"
   },
   "devDependencies": {
     "rimraf": "^2.5.4",
