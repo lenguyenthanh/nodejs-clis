@@ -26,4 +26,4 @@ Time spent: `4 hours`
 
 ## Walkthrough Gif:
 
-![Video Walkthrough]()
+![Video Walkthrough](https://github.com/lenguyenthanh/nodejs-clis/blob/master/Walkthrough.gif)
