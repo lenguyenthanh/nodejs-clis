@@ -11,7 +11,8 @@
     "cli:echo": "babel-node echo.js",
     "cli:cat": "babel-node cat.js",
     "cli:touch": "babel-node touch.js",
-    "cli:ls": "babel-node ls.js"
+    "cli:ls": "babel-node ls.js",
+    "cli:ls": "babel-node mkdir.js"
   },
   "repository": {
     "type": "git",
